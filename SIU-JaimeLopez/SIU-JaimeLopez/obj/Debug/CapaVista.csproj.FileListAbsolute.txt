@@ -12,3 +12,10 @@ J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\SIU-JaimeLopez\obj\Debug\CapaVista.c
 J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\SIU-JaimeLopez\obj\Debug\CapaVista.csproj.CopyComplete
 J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\SIU-JaimeLopez\obj\Debug\CapaVista.dll
 J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\SIU-JaimeLopez\obj\Debug\CapaVista.pdb
+J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\SIU-JaimeLopez\obj\Debug\CapaVista.frmModificarAlumno.resources
+J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\SIU-JaimeLopez\obj\Debug\CapaVista.frmConsultaAlumno.resources
+J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\SIU-JaimeLopez\obj\Debug\CapaVista.frmEliminarAlumno.resources
+J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\SIU-JaimeLopez\obj\Debug\CapaVista.frmConsultaMaestro.resources
+J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\SIU-JaimeLopez\obj\Debug\CapaVista.frmIngresoDoc.resources
+J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\SIU-JaimeLopez\obj\Debug\CapaVista.frmElimCat.resources
+J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\SIU-JaimeLopez\obj\Debug\CapaVista.frmModifCat.resources

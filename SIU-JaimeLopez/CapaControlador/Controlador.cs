@@ -52,5 +52,12 @@ namespace CapaControlador
 
             return carnet;
         }
+
+        public string generarCarDocente()
+        {
+            string tabla = "maestros";
+            int num = refS.cuenta(tabla);
+            return (num + 1).ToString();
+        }
     }
 }

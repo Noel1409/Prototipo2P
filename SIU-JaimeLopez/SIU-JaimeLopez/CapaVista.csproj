@@ -46,11 +46,53 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmConsultaAlumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaAlumno.Designer.cs">
+      <DependentUpon>frmConsultaAlumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaMaestro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaMaestro.Designer.cs">
+      <DependentUpon>frmConsultaMaestro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmElimCat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmElimCat.Designer.cs">
+      <DependentUpon>frmElimCat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEliminarAlumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEliminarAlumno.Designer.cs">
+      <DependentUpon>frmEliminarAlumno.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmIngresoAlumno.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmIngresoAlumno.Designer.cs">
       <DependentUpon>frmIngresoAlumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIngresoDoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIngresoDoc.Designer.cs">
+      <DependentUpon>frmIngresoDoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmModifCat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModifCat.Designer.cs">
+      <DependentUpon>frmModifCat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmModificarAlumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModificarAlumno.Designer.cs">
+      <DependentUpon>frmModificarAlumno.cs</DependentUpon>
     </Compile>
     <Compile Include="MDI.cs">
       <SubType>Form</SubType>
@@ -61,8 +103,29 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmConsultaAlumno.resx">
+      <DependentUpon>frmConsultaAlumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaMaestro.resx">
+      <DependentUpon>frmConsultaMaestro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmElimCat.resx">
+      <DependentUpon>frmElimCat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEliminarAlumno.resx">
+      <DependentUpon>frmEliminarAlumno.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmIngresoAlumno.resx">
       <DependentUpon>frmIngresoAlumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIngresoDoc.resx">
+      <DependentUpon>frmIngresoDoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModifCat.resx">
+      <DependentUpon>frmModifCat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModificarAlumno.resx">
+      <DependentUpon>frmModificarAlumno.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MDI.resx">
       <DependentUpon>MDI.cs</DependentUpon>

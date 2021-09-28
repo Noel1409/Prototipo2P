@@ -29,6 +29,7 @@ namespace SIU_JaimeLopez
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MDI));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.abrirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -43,6 +44,11 @@ namespace SIU_JaimeLopez
             this.herramientasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.alumnosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.maestrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ingresarMaestroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.modificarMaestroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultarMaestroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.darDeBajaMaestroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -72,7 +78,7 @@ namespace SIU_JaimeLopez
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
@@ -85,7 +91,8 @@ namespace SIU_JaimeLopez
             // procesosToolStripMenuItem
             // 
             this.procesosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ingresoDeAlumnoToolStripMenuItem});
+            this.ingresoDeAlumnoToolStripMenuItem,
+            this.maestrosToolStripMenuItem});
             this.procesosToolStripMenuItem.Name = "procesosToolStripMenuItem";
             this.procesosToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.procesosToolStripMenuItem.Text = "Procesos";
@@ -113,18 +120,21 @@ namespace SIU_JaimeLopez
             this.modificaciónDeAlumnoToolStripMenuItem.Name = "modificaciónDeAlumnoToolStripMenuItem";
             this.modificaciónDeAlumnoToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
             this.modificaciónDeAlumnoToolStripMenuItem.Text = "Modificación de Alumno";
+            this.modificaciónDeAlumnoToolStripMenuItem.Click += new System.EventHandler(this.modificaciónDeAlumnoToolStripMenuItem_Click);
             // 
             // darDeBajaAlumnoToolStripMenuItem
             // 
             this.darDeBajaAlumnoToolStripMenuItem.Name = "darDeBajaAlumnoToolStripMenuItem";
             this.darDeBajaAlumnoToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
             this.darDeBajaAlumnoToolStripMenuItem.Text = "Dar de Baja Alumno";
+            this.darDeBajaAlumnoToolStripMenuItem.Click += new System.EventHandler(this.darDeBajaAlumnoToolStripMenuItem_Click);
             // 
             // consultaAlumnoToolStripMenuItem
             // 
             this.consultaAlumnoToolStripMenuItem.Name = "consultaAlumnoToolStripMenuItem";
             this.consultaAlumnoToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
             this.consultaAlumnoToolStripMenuItem.Text = "Consulta Alumno";
+            this.consultaAlumnoToolStripMenuItem.Click += new System.EventHandler(this.consultaAlumnoToolStripMenuItem_Click);
             // 
             // informesToolStripMenuItem
             // 
@@ -153,12 +163,52 @@ namespace SIU_JaimeLopez
             this.alumnosToolStripMenuItem.Text = "Alumnos";
             this.alumnosToolStripMenuItem.Click += new System.EventHandler(this.alumnosToolStripMenuItem_Click);
             // 
+            // maestrosToolStripMenuItem
+            // 
+            this.maestrosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ingresarMaestroToolStripMenuItem,
+            this.modificarMaestroToolStripMenuItem,
+            this.consultarMaestroToolStripMenuItem,
+            this.darDeBajaMaestroToolStripMenuItem});
+            this.maestrosToolStripMenuItem.Name = "maestrosToolStripMenuItem";
+            this.maestrosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.maestrosToolStripMenuItem.Text = "Maestros";
+            // 
+            // ingresarMaestroToolStripMenuItem
+            // 
+            this.ingresarMaestroToolStripMenuItem.Name = "ingresarMaestroToolStripMenuItem";
+            this.ingresarMaestroToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ingresarMaestroToolStripMenuItem.Text = "Ingresar Maestro";
+            this.ingresarMaestroToolStripMenuItem.Click += new System.EventHandler(this.ingresarMaestroToolStripMenuItem_Click);
+            // 
+            // modificarMaestroToolStripMenuItem
+            // 
+            this.modificarMaestroToolStripMenuItem.Name = "modificarMaestroToolStripMenuItem";
+            this.modificarMaestroToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.modificarMaestroToolStripMenuItem.Text = "Modificar Maestro";
+            this.modificarMaestroToolStripMenuItem.Click += new System.EventHandler(this.modificarMaestroToolStripMenuItem_Click);
+            // 
+            // consultarMaestroToolStripMenuItem
+            // 
+            this.consultarMaestroToolStripMenuItem.Name = "consultarMaestroToolStripMenuItem";
+            this.consultarMaestroToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.consultarMaestroToolStripMenuItem.Text = "Consultar Maestro";
+            this.consultarMaestroToolStripMenuItem.Click += new System.EventHandler(this.consultarMaestroToolStripMenuItem_Click);
+            // 
+            // darDeBajaMaestroToolStripMenuItem
+            // 
+            this.darDeBajaMaestroToolStripMenuItem.Name = "darDeBajaMaestroToolStripMenuItem";
+            this.darDeBajaMaestroToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.darDeBajaMaestroToolStripMenuItem.Text = "Dar de baja Maestro";
+            this.darDeBajaMaestroToolStripMenuItem.Click += new System.EventHandler(this.darDeBajaMaestroToolStripMenuItem_Click);
+            // 
             // MDI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MDI";
@@ -186,5 +236,10 @@ namespace SIU_JaimeLopez
         private System.Windows.Forms.ToolStripMenuItem darDeBajaAlumnoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem consultaAlumnoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem alumnosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem maestrosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ingresarMaestroToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem modificarMaestroToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem consultarMaestroToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem darDeBajaMaestroToolStripMenuItem;
     }
 }

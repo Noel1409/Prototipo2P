@@ -1,6 +1,3 @@
-J:\uni\Analisis2Parcial\repo\Ejecutable\Ejecutable\Ejecutable\bin\Debug\Ejecutable.exe.config
-J:\uni\Analisis2Parcial\repo\Ejecutable\Ejecutable\Ejecutable\bin\Debug\Ejecutable.exe
-J:\uni\Analisis2Parcial\repo\Ejecutable\Ejecutable\Ejecutable\bin\Debug\Ejecutable.pdb
 J:\uni\Analisis2Parcial\repo\Ejecutable\Ejecutable\Ejecutable\bin\Debug\CapaVista.dll
 J:\uni\Analisis2Parcial\repo\Ejecutable\Ejecutable\Ejecutable\bin\Debug\CapaControlador.dll
 J:\uni\Analisis2Parcial\repo\Ejecutable\Ejecutable\Ejecutable\bin\Debug\CapaModelo.dll
@@ -8,9 +5,12 @@ J:\uni\Analisis2Parcial\repo\Ejecutable\Ejecutable\Ejecutable\bin\Debug\CapaVist
 J:\uni\Analisis2Parcial\repo\Ejecutable\Ejecutable\Ejecutable\bin\Debug\CapaControlador.pdb
 J:\uni\Analisis2Parcial\repo\Ejecutable\Ejecutable\Ejecutable\bin\Debug\CapaModelo.pdb
 J:\uni\Analisis2Parcial\repo\Ejecutable\Ejecutable\Ejecutable\obj\Debug\Ejecutable.csproj.AssemblyReference.cache
-J:\uni\Analisis2Parcial\repo\Ejecutable\Ejecutable\Ejecutable\obj\Debug\Ejecutable.Properties.Resources.resources
 J:\uni\Analisis2Parcial\repo\Ejecutable\Ejecutable\Ejecutable\obj\Debug\Ejecutable.csproj.GenerateResource.cache
 J:\uni\Analisis2Parcial\repo\Ejecutable\Ejecutable\Ejecutable\obj\Debug\Ejecutable.csproj.CoreCompileInputs.cache
 J:\uni\Analisis2Parcial\repo\Ejecutable\Ejecutable\Ejecutable\obj\Debug\Ejecutable.csproj.CopyComplete
-J:\uni\Analisis2Parcial\repo\Ejecutable\Ejecutable\Ejecutable\obj\Debug\Ejecutable.exe
-J:\uni\Analisis2Parcial\repo\Ejecutable\Ejecutable\Ejecutable\obj\Debug\Ejecutable.pdb
+J:\uni\Analisis2Parcial\repo\Ejecutable\Ejecutable\Ejecutable\bin\Debug\SIUJaimeLopez.exe.config
+J:\uni\Analisis2Parcial\repo\Ejecutable\Ejecutable\Ejecutable\bin\Debug\SIUJaimeLopez.exe
+J:\uni\Analisis2Parcial\repo\Ejecutable\Ejecutable\Ejecutable\bin\Debug\SIUJaimeLopez.pdb
+J:\uni\Analisis2Parcial\repo\Ejecutable\Ejecutable\Ejecutable\obj\Debug\SIUJaimeLopez.Properties.Resources.resources
+J:\uni\Analisis2Parcial\repo\Ejecutable\Ejecutable\Ejecutable\obj\Debug\SIUJaimeLopez.exe
+J:\uni\Analisis2Parcial\repo\Ejecutable\Ejecutable\Ejecutable\obj\Debug\SIUJaimeLopez.pdb
