@@ -1,0 +1,9 @@
+J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\SIU-JaimeLopez\bin\Debug\SIU-JaimeLopez.dll
+J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\SIU-JaimeLopez\bin\Debug\SIU-JaimeLopez.pdb
+J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\SIU-JaimeLopez\obj\Debug\CapaVista.csproj.AssemblyReference.cache
+J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\SIU-JaimeLopez\obj\Debug\CapaVista.csproj.CoreCompileInputs.cache
+J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\SIU-JaimeLopez\obj\Debug\SIU-JaimeLopez.dll
+J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\SIU-JaimeLopez\obj\Debug\SIU-JaimeLopez.pdb
+J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\SIU-JaimeLopez\bin\Debug\CapaControlador.dll
+J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\SIU-JaimeLopez\bin\Debug\CapaControlador.pdb
+J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\SIU-JaimeLopez\obj\Debug\CapaVista.csproj.CopyComplete
