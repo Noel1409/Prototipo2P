@@ -1,9 +1,9 @@
 J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\CapaControlador\bin\Debug\CapaControlador.dll
 J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\CapaControlador\bin\Debug\CapaControlador.pdb
-J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\CapaControlador\obj\Debug\CapaControlador.csproj.AssemblyReference.cache
-J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\CapaControlador\obj\Debug\CapaControlador.csproj.CoreCompileInputs.cache
-J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\CapaControlador\obj\Debug\CapaControlador.dll
-J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\CapaControlador\obj\Debug\CapaControlador.pdb
 J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\CapaControlador\bin\Debug\CapaModelo.dll
 J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\CapaControlador\bin\Debug\CapaModelo.pdb
+J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\CapaControlador\obj\Debug\CapaControlador.csproj.AssemblyReference.cache
+J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\CapaControlador\obj\Debug\CapaControlador.csproj.CoreCompileInputs.cache
 J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\CapaControlador\obj\Debug\CapaControlador.csproj.CopyComplete
+J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\CapaControlador\obj\Debug\CapaControlador.dll
+J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\CapaControlador\obj\Debug\CapaControlador.pdb

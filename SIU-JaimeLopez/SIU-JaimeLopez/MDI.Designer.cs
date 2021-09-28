@@ -34,14 +34,14 @@ namespace SIU_JaimeLopez
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.catálogosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.informesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.herramientasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ingresoDeAlumnoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registroDeAlumnoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modificaciónDeAlumnoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.darDeBajaAlumnoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultaAlumnoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.informesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.herramientasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.alumnosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -90,6 +90,42 @@ namespace SIU_JaimeLopez
             this.procesosToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.procesosToolStripMenuItem.Text = "Procesos";
             // 
+            // ingresoDeAlumnoToolStripMenuItem
+            // 
+            this.ingresoDeAlumnoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.registroDeAlumnoToolStripMenuItem,
+            this.modificaciónDeAlumnoToolStripMenuItem,
+            this.darDeBajaAlumnoToolStripMenuItem,
+            this.consultaAlumnoToolStripMenuItem});
+            this.ingresoDeAlumnoToolStripMenuItem.Name = "ingresoDeAlumnoToolStripMenuItem";
+            this.ingresoDeAlumnoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ingresoDeAlumnoToolStripMenuItem.Text = "Alumnos";
+            // 
+            // registroDeAlumnoToolStripMenuItem
+            // 
+            this.registroDeAlumnoToolStripMenuItem.Name = "registroDeAlumnoToolStripMenuItem";
+            this.registroDeAlumnoToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
+            this.registroDeAlumnoToolStripMenuItem.Text = "Registro de Alumno";
+            this.registroDeAlumnoToolStripMenuItem.Click += new System.EventHandler(this.registroDeAlumnoToolStripMenuItem_Click);
+            // 
+            // modificaciónDeAlumnoToolStripMenuItem
+            // 
+            this.modificaciónDeAlumnoToolStripMenuItem.Name = "modificaciónDeAlumnoToolStripMenuItem";
+            this.modificaciónDeAlumnoToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
+            this.modificaciónDeAlumnoToolStripMenuItem.Text = "Modificación de Alumno";
+            // 
+            // darDeBajaAlumnoToolStripMenuItem
+            // 
+            this.darDeBajaAlumnoToolStripMenuItem.Name = "darDeBajaAlumnoToolStripMenuItem";
+            this.darDeBajaAlumnoToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
+            this.darDeBajaAlumnoToolStripMenuItem.Text = "Dar de Baja Alumno";
+            // 
+            // consultaAlumnoToolStripMenuItem
+            // 
+            this.consultaAlumnoToolStripMenuItem.Name = "consultaAlumnoToolStripMenuItem";
+            this.consultaAlumnoToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
+            this.consultaAlumnoToolStripMenuItem.Text = "Consulta Alumno";
+            // 
             // informesToolStripMenuItem
             // 
             this.informesToolStripMenuItem.Name = "informesToolStripMenuItem";
@@ -110,45 +146,10 @@ namespace SIU_JaimeLopez
             this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
             // 
-            // ingresoDeAlumnoToolStripMenuItem
-            // 
-            this.ingresoDeAlumnoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.registroDeAlumnoToolStripMenuItem,
-            this.modificaciónDeAlumnoToolStripMenuItem,
-            this.darDeBajaAlumnoToolStripMenuItem,
-            this.consultaAlumnoToolStripMenuItem});
-            this.ingresoDeAlumnoToolStripMenuItem.Name = "ingresoDeAlumnoToolStripMenuItem";
-            this.ingresoDeAlumnoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.ingresoDeAlumnoToolStripMenuItem.Text = "Alumnos";
-            // 
-            // registroDeAlumnoToolStripMenuItem
-            // 
-            this.registroDeAlumnoToolStripMenuItem.Name = "registroDeAlumnoToolStripMenuItem";
-            this.registroDeAlumnoToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
-            this.registroDeAlumnoToolStripMenuItem.Text = "Registro de Alumno";
-            // 
-            // modificaciónDeAlumnoToolStripMenuItem
-            // 
-            this.modificaciónDeAlumnoToolStripMenuItem.Name = "modificaciónDeAlumnoToolStripMenuItem";
-            this.modificaciónDeAlumnoToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
-            this.modificaciónDeAlumnoToolStripMenuItem.Text = "Modificación de Alumno";
-            // 
-            // darDeBajaAlumnoToolStripMenuItem
-            // 
-            this.darDeBajaAlumnoToolStripMenuItem.Name = "darDeBajaAlumnoToolStripMenuItem";
-            this.darDeBajaAlumnoToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
-            this.darDeBajaAlumnoToolStripMenuItem.Text = "Dar de Baja Alumno";
-            // 
-            // consultaAlumnoToolStripMenuItem
-            // 
-            this.consultaAlumnoToolStripMenuItem.Name = "consultaAlumnoToolStripMenuItem";
-            this.consultaAlumnoToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
-            this.consultaAlumnoToolStripMenuItem.Text = "Consulta Alumno";
-            // 
             // alumnosToolStripMenuItem
             // 
             this.alumnosToolStripMenuItem.Name = "alumnosToolStripMenuItem";
-            this.alumnosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.alumnosToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
             this.alumnosToolStripMenuItem.Text = "Alumnos";
             this.alumnosToolStripMenuItem.Click += new System.EventHandler(this.alumnosToolStripMenuItem_Click);
             // 

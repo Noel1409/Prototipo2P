@@ -7,8 +7,8 @@
     <ProjectGuid>{1852365D-CDC6-4182-94E4-396EE79EE639}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SIU_JaimeLopez</RootNamespace>
-    <AssemblyName>SIU-JaimeLopez</AssemblyName>
+    <RootNamespace>CapaVista</RootNamespace>
+    <AssemblyName>CapaVista</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmIngresoAlumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIngresoAlumno.Designer.cs">
+      <DependentUpon>frmIngresoAlumno.cs</DependentUpon>
+    </Compile>
     <Compile Include="MDI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -55,6 +61,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmIngresoAlumno.resx">
+      <DependentUpon>frmIngresoAlumno.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MDI.resx">
       <DependentUpon>MDI.cs</DependentUpon>
     </EmbeddedResource>

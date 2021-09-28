@@ -28,5 +28,12 @@ namespace SIU_JaimeLopez
             string rutaAyudaHTML = "ayudas/Alumno.html";
             Help.ShowHelp(this, rutaAyudaCHM, rutaAyudaHTML);
         }
+
+        private void registroDeAlumnoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmIngresoAlumno frm = new frmIngresoAlumno();
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }

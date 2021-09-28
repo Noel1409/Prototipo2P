@@ -20,7 +20,7 @@ namespace CapaModelo
             return dataTable;
         }
         // Jaime Noel López Daniel 0901-18-735
-        public bool modificar(string campos, string datos, string tabla)
+        public bool modificar(string[] campos, string[] datos, string tabla)
         {
             int resultado = 0;
             OdbcConnection conn = manejoConexion.abrirConexion();
@@ -62,7 +62,7 @@ namespace CapaModelo
             }
         }
 
-        public bool insertar(string campos, string datos, string tabla)
+        public bool insertar(string[] campos, string[] datos, string tabla)
         {
             int resultado = 0;
             OdbcConnection conn = manejoConexion.abrirConexion();

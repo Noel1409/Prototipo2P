@@ -8,7 +8,7 @@ using System.Data.Odbc;
 using System.Data;
 namespace CapaControlador
 {
-    class Controlador
+    public class Controlador
     {
         Sentencias refS = new CapaModelo.Sentencias();
         public DataTable llenarDGV(string tabla)
@@ -19,12 +19,12 @@ namespace CapaControlador
             return table;
         }
 
-        public bool insertar(string campos, string datos, string tabla)
+        public bool insertar(string[] campos, string[] datos, string tabla)
         {
             return refS.insertar(campos, datos, tabla);
         }
 
-        public bool modificar(string campos, string datos, string tabla)
+        public bool modificar(string[] campos, string[] datos, string tabla)
         {
             return refS.modificar(campos, datos, tabla);
         }
