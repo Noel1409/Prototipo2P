@@ -3,4 +3,3 @@ J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\CapaModelo\bin\Debug\CapaModelo.pdb
 J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\CapaModelo\obj\Debug\CapaModelo.csproj.CoreCompileInputs.cache
 J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\CapaModelo\obj\Debug\CapaModelo.dll
 J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\CapaModelo\obj\Debug\CapaModelo.pdb
-J:\uni\Analisis2Parcial\repo\SIU-JaimeLopez\CapaModelo\obj\Debug\CapaModelo.csproj.AssemblyReference.cache

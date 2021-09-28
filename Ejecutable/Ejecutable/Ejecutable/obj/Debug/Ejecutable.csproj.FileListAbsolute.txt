@@ -14,3 +14,7 @@ J:\uni\Analisis2Parcial\repo\Ejecutable\Ejecutable\Ejecutable\bin\Debug\SIUJaime
 J:\uni\Analisis2Parcial\repo\Ejecutable\Ejecutable\Ejecutable\obj\Debug\SIUJaimeLopez.Properties.Resources.resources
 J:\uni\Analisis2Parcial\repo\Ejecutable\Ejecutable\Ejecutable\obj\Debug\SIUJaimeLopez.exe
 J:\uni\Analisis2Parcial\repo\Ejecutable\Ejecutable\Ejecutable\obj\Debug\SIUJaimeLopez.pdb
+J:\uni\Analisis2Parcial\repo\Ejecutable\Ejecutable\Ejecutable\bin\Debug\SIUJaimeLopez.exe.manifest
+J:\uni\Analisis2Parcial\repo\Ejecutable\Ejecutable\Ejecutable\bin\Debug\SIUJaimeLopez.application
+J:\uni\Analisis2Parcial\repo\Ejecutable\Ejecutable\Ejecutable\obj\Debug\SIUJaimeLopez.exe.manifest
+J:\uni\Analisis2Parcial\repo\Ejecutable\Ejecutable\Ejecutable\obj\Debug\SIUJaimeLopez.application

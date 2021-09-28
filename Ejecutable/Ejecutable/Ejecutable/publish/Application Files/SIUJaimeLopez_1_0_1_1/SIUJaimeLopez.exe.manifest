@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SIUJaimeLopez.exe" version="1.0.1.1" publicKeyToken="515e2f42f826c6eb" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="icono.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SIUJaimeLopez" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SIUJaimeLopez.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CapaControlador.dll" size="5120">
+      <assemblyIdentity name="CapaControlador" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Z5wHjlu6PNM5jNV6YQhjNNi6p4xwyt0Z5hK7FCALwJ0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CapaModelo.dll" size="7168">
+      <assemblyIdentity name="CapaModelo" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Msltt3aibllvIySiXW3GQY1TX8XZ6CWt6auo7zWVSuA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CapaVista.dll" size="108544">
+      <assemblyIdentity name="CapaVista" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>RaZMcDSJLAV5VWlkoXgJ8V637EmMLHSFoVDE6zYaMUg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SIUJaimeLopez.exe" size="75248">
+      <assemblyIdentity name="SIUJaimeLopez" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>YcVo1TVTwhTIyFkY1kO7Yt6cdvd8jftnLBdX3c1QeM4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="icono.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tfQVfrbEKQcEkoMbp6x/e/UWvMebWQCdEnhV5h0Wp9E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SIUJaimeLopez.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-82J2P5S\Usuario" issuerKeyHash="633f60278e923126048a6ab7696c42cb509ad85f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Zy/IkGSY94jfvXB9ygUQoUt49pwxCbDjm++BoEQNJcE=</DigestValue></Reference></SignedInfo><SignatureValue>Bj6K+fvVLSYdXjZYEooVpE5VaMFm03r4iorXWDWVXGs6DLgQ3kXNB0yH7cA2QfZccvZWq8XHVxPF26lENTWEd1hYPUQXRT3jvc1Bv7lD/4Ih2n4JwWWHkkhWWALSnOvCupScmzVSHyqWiZ0vjJLGRHcQO2dukj1xC8zw0Jhm8z4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uPV+7aMphmYjdvqWXapb/Q7ZsCu5pUsZvz6cGgF6ggFtv8j+yDWLlRieP4Kd3eHrLJmsLa+NyI023D0T6uNfKggkzHfCRcK4SN012GugKGd477oh4ZFuSXQg8eJHEJW/wM5DpGtBcRVJHm/n4jXXhmyyAx14oVFnidHdz6Obhn0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c1250d44a081ef9be3b009319cf6784ba11005ca7d70bddf88f7986490c82f67" Description="" Url=""><as:assemblyIdentity name="SIUJaimeLopez.exe" version="1.0.1.1" publicKeyToken="515e2f42f826c6eb" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-82J2P5S\Usuario</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>jdC3nBW3lRjELFvUBg7ld8amUTOz7t0TLk1nz+G9ShE=</DigestValue></Reference></SignedInfo><SignatureValue>iciYl9AZMn6/F9h+DT0wTKpdT1ShMZp8Yx00Z9MoxCICkN33ZBH78P62O3pfpzqPG1HcfbHdyfG3yher7HRg26h8eU6b/yFL6g2fPVOOVkxqYLi/jRwcU8JXLXZPJwu9arJFX/M3gTAQIY/Giz2yDhRnmDfWK0OKCBUn2v7uSHg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uPV+7aMphmYjdvqWXapb/Q7ZsCu5pUsZvz6cGgF6ggFtv8j+yDWLlRieP4Kd3eHrLJmsLa+NyI023D0T6uNfKggkzHfCRcK4SN012GugKGd477oh4ZFuSXQg8eJHEJW/wM5DpGtBcRVJHm/n4jXXhmyyAx14oVFnidHdz6Obhn0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB9TCCAV6gAwIBAgIQWGM71k/VvrtHHLYSkgmTKDANBgkqhkiG9w0BAQsFADA5MTcwNQYDVQQDHi4ARABFAFMASwBUAE8AUAAtADgAMgBKADIAUAA1AFMAXABVAHMAdQBhAHIAaQBvMB4XDTIxMDkyODE4NDU0OVoXDTIyMDkyOTAwNDU0OVowOTE3MDUGA1UEAx4uAEQARQBTAEsAVABPAFAALQA4ADIASgAyAFAANQBTAFwAVQBzAHUAYQByAGkAbzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAuPV+7aMphmYjdvqWXapb/Q7ZsCu5pUsZvz6cGgF6ggFtv8j+yDWLlRieP4Kd3eHrLJmsLa+NyI023D0T6uNfKggkzHfCRcK4SN012GugKGd477oh4ZFuSXQg8eJHEJW/wM5DpGtBcRVJHm/n4jXXhmyyAx14oVFnidHdz6Obhn0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQBT/xYv/hPM0ig2CwIrYYzs7K3HZOfOqhOET8GCIgz8d79bwNwsxcOrx9TD9p0Ab8L+mzSMbuQI+mKZLumep+gTdeL7rsPxKNxr3B76GtVirgWnZyeVsYaaEOWvkW6QTcaCDYnfCEv9b3bB3uFyPgioQylpFSwXkMNJJQWTEmsr0Q==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
